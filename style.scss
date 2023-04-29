@@ -1,0 +1,51 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+#gameDiv {
+    font-family: cursive;
+    border: 3px solid;
+    border-radius: 20px;
+    text-align: center;
+    margin-top: 20px;
+    background-color: rgb(230, 228, 228);
+}
+
+#palyerText {
+    color: rgba(4, 4, 235, 0.822);
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+#computerText {
+    color: rgba(233, 13, 32, 0.822);
+    font-weight: 900;
+    margin-top: 10px;
+}
+
+#resultText {
+    color: rgba(17, 245, 131, 0.822);
+    margin-top: 10px;
+    font-weight: 900;
+
+}
+
+.choiceBtn {
+    border-radius: 5px;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    font-weight: 600;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    background-color: gray;
+    color: yellow;
+
+    &:hover {
+        background-color: rgb(94, 94, 94);
+        color: yellowgreen;
+        transition: .3s;
+    }
+}
